@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 02</title>
+
+    <style>
+        body {
+            border-style: solid;
+        }
+
+        hr {
+            border-style: solid;
+        }
+
+        li {
+            display: inline;
+            padding: 10%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="header">
+
+        <center>
+            <table cellspacing="100">
+
+                <tr>
+                    <td>
+                        <img src="data:image/png;base64,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"
+                            alt="profile-img" height="100" width="100">
+                    </td>
+                    <td>
+                        <h1>PlayStation</h1>
+                    </td>
+                </tr>
+
+            </table>
+            <hr>
+
+            <div class="nav-bar">
+                <ul>
+                    <li><a href="https://www.playstation.com/en-in/ps5/games/?smcid=pdc%3Aen-in%3Aprimary%20nav%3Amsg-games%3Aps5">PS5 </a></li>
+                    <li><a href="https://www.playstation.com/en-in/ps4/ps4-games/?smcid=pdc%3Aen-in%3Aprimary%20nav%3Amsg-games%3Aps4">PS4 </a></li>
+                    <li><a href="https://www.playstation.com/en-in/ps-vr/ps-vr-games/?smcid=pdc%3Aen-in%3Aprimary%20nav%3Amsg-games%3Aps-vr">PS VR</a></li>
+                    <input type="text" placeholder="Search">
+                </ul>
+            </div>
+            <hr>
+        </center>
+    </section>
+
+    <section class="content">
+        <center>
+            <table cellspacing="100">
+
+                <tr>
+                    <td>
+                        <iframe width="480" height="270" src="https://www.youtube.com/embed/gOE2BVRCUkM"
+                            title="God of War Gameplay Trailer" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </td>
+
+                    <td>
+                        <p>PlayStation is a video game brand that consists of five home video game consoles, two handhelds, a media center, and a smartphone, as well as an online service and multiple magazines. The brand is produced by Sony Interactive Entertainment, a division of Sony; the first PlayStation console was released in Japan in December 1994, and worldwide the following year.</p>
+                        <p>The original console in the series was the first console of any type to ship over 100 million units, doing so in under a decade. Its successor, the PlayStation 2, was released in 2000. The PlayStation 2 is the best-selling home console to date, having reached over 155 million units sold by the end of 2012. Sony's next console, the PlayStation 3, was released in 2006, selling over 87.4 million units by March 2017. Sony's next console, the PlayStation 4, was released in 2013, selling a million units within a day, becoming the fastest selling console in history. The latest console in the series, the PlayStation 5, was released in 2020 and sold 10 million units in its first 249 days, unseating its predecessor as the fastest-selling PlayStation console to-date.</p>
+                        <br>
+                        <center>
+                            <audio controls>
+                                <source src="Strange.mp3" type="audio/mp3">                                
+                            </audio>
+                        </center>
+                        
+                    </td>
+                </tr>
+            </table>
+        </center>
+        <hr>
+    </section>
+    <section class="footer">
+        <center>
+            <table cellspacing="100">
+                <tr>
+                    <td>
+                        <form>
+                            <fieldset>
+                                <legend>Sign Up</legend><br><br>
+                                <label for="user-name">*User Name:</label>
+                                <input type="text" name="uName" id="user-name" placeholder="username"><br><br>
+                                <label for="psd">*Password:&nbsp;&nbsp;&nbsp;</label>
+                                <input type="password" name="psd" id="psd" placeholder="password"><br><br>
+                                <center><button><a href="form.html">Register</a></button></center>
+                        </form>
+
+                    </td>
+
+                    <td>
+
+                        <h2>Contact Us</h2>
+                        <p>2207 Bridgepointe Pkw.</p>
+                        <p>San Mateo, CA 94404</p>
+                        <p>USA</p>
+                        <p>Mail Id: <a href="mailto:aaa@company.org">playstation@sony.com</a></p>
+                        <p>Phone No: +1 99999 99999</p>
+
+
+                    </td>
+                    <td>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6477236.340903258!2d-130.7217385!3d37.5618237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f9ec3d79b09fb%3A0x42f17b2ead6b29b9!2sPlayStation%20America!5e0!3m2!1sen!2sin!4v1659923469467!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </td>
+
+                </tr>
+            </table>
+        </center>
+
+
+    </section>
+
+</body>
+
+</html>
