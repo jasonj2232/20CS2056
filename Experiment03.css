@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    
+}
+.header{
+    background-color: #003791;
+}
+.header > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 117px;
+    width: 195px;
+    padding: 12px;
+    
+}
+
+li{
+    display: inline;
+    padding: 5%;
+}
+
+.nav-bar{
+    border-color: #000;
+    border-style: solid;
+    border-width: 2px 0px 2px 0px;
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.about{
+    background-color: #003791;
+    background-image:url('https://www.playstation.com/etc.clientlibs/global_pdc/clientlibs/clientlib-base/resources/sie.svg');
+    background-size: 600px 200px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: right;
+    
+    
+}
+.about > div{
+    height: 300px;
+    width: 50%;
+    border:2px solid #000;
+    margin-left: 70px;
+    background-color: #ffffff;
+    position: relative;
+    top: 90px;
+    padding: 20px;
+
+}
+
+
+.family{
+    text-align: center;
+    background-color: #003791;
+    padding: 10px;
+}
+
+.family > div{
+    padding: 20px;
+    
+}
+
+h5{
+    padding: 30px;
+}
+
+
+
+.PS1{
+    display: inline-table;
+    width:30%;
+    background-color: #ffffff;
+    padding: 10%;
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+}
+.PS2{
+    display: inline-table;
+    width:30%;
+    background-color: #ffffff;
+    padding: 10%;
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+}
+.PS3{
+    display: inline-table;
+    width:30%;
+    background-color: #ffffff;
+    padding: 10%;
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+}
+.PS4{
+    display: inline-table;
+    width:30%;
+    background-color: #ffffff;
+    padding: 10%;
+}
+.PSVR{
+    display: inline-table;
+    width:30%;
+    background-color: #ffffff;
+    padding: 10%;
+}
+.PS5{
+    display: inline-table;
+    width:30%;
+    background-color: #ffffff;
+    padding: 10%;
+}
