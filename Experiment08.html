@@ -12,22 +12,22 @@
         <script src="Experiment08.js"></script>
     </head>
     <body class="bg-dark text-light" ng-app="" >        
-        <h1 class="text-center p-5 text-warning">AngularJS</h1>
-        <hr class="border border-warning border-2 opacity-50">
+        <h1 class="text-center p-5 text-light">Working With AngularJS Directives</h1>
+        <hr class="border border-light border-2 opacity-50">
         <section id="Q1"  ng-controller="cmtCtrl">
             <h3 class="text-center text-white bg mt-5">1. Comment Box</h3>
             <div class="container col-sm-6 mt-5">
                 <label for="t1" class="form-label text-white">Enter your Comment</label>
                 <textarea id="t1" class="form-control" cols="30" rows="5" ng-model="cmt" placeholder="Enter Comment"></textarea>
                 <div class="text-center ">
-                    <button class="btn btn-outline-warning mt-5" ng-click="postBtn()">Post</button>
+                    <button class="btn btn-outline-light mt-5" ng-click="postBtn()">Post</button>
                 </div>
                 <h5 id="result1" class="text-start text-light mt-5 mb-2">{{heading}}</h5>
                 <ul class="list-group mb-4">
-                    <li  class="list-group-item bg-dark border-warning text-light text-start" ng-repeat="comment in comments">{{comment}} <i class="fa-solid fa-xmark ms-4 text-danger" ng-click="remItem()"></i></li>
+                    <li  class="list-group-item bg-dark border-light text-light text-start" ng-repeat="comment in comments">{{comment}} <i class="fa-solid fa-xmark ms-4 text-danger" ng-click="remItem()"></i></li>
                 </ul>     
             </div>
-            <hr class="border border-warning border-2 opacity-50">
+            <hr class="border border-light border-2 opacity-50">
         </section>
         <section id="Q2" ng-app="calc" ng-controller="calcCtrl">
             <h3 class="text-center text-white bg mt-5">2. Simple Calculator</h3>
@@ -47,9 +47,9 @@
                       </select>
                 </div>
                 </center>
-                <h5 id="result2" class="text-center text-warning mt-5 mb-5">{{ result() }}</h5>             
+                <h5 id="result2" class="text-center text-light mt-5 mb-5">{{ result() }}</h5>             
             </div>
-            <hr class="border border-warning border-2 opacity-50">
+            <hr class="border border-light border-2 opacity-50">
         </section>
         <section id="Q3" ng-controller="todoCtrl">
             <h3 class="text-center text-white bg mt-5">3. To-Do List</h3>
@@ -57,14 +57,14 @@
                 <label for="height" class="form-label text-white">Enter Task</label>
                 <input type="text" ng-model="task" id="height" class="form-control">                
                 <div class="text-center ">
-                    <button class="btn btn-outline-warning mt-3 mb-5" ng-click="addBtn()">Add</button>
+                    <button class="btn btn-outline-light mt-3 mb-5" ng-click="addBtn()">Add</button>
                 </div>
                 <h5 id="result1" class="text-start text-light mt-5 mb-2">{{heading}}</h5>
                 <ul class="list-group">
-                    <li  class="list-group-item bg-dark border-warning text-light text-start" ng-repeat="task in tasks">{{task}} <i ng-click="remTask($index)" class="fa-solid fa-xmark ms-4 text-danger" ></i></li>
+                    <li  class="list-group-item bg-dark border-light text-light text-start" ng-repeat="task in tasks">{{task}} <i ng-click="remTask($index)" class="fa-solid fa-xmark ms-4 text-danger" ></i></li>
                 </ul>                              
             </div>
-            <hr class="border border-warning border-2 opacity-50">
+            <hr class="border border-light border-2 opacity-50">
         </section>        
     </body>
 </html>
