@@ -2,7 +2,6 @@ function cmtCtrl($scope){
     $scope.comments=[]
     $scope.postBtn=()=>{        
         if($scope.cmt!=''){
-           
             $scope.heading="Comments";
             $scope.comments.push($scope.cmt); 
         }
