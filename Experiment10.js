@@ -65,7 +65,7 @@ app.controller("myctrl",($scope)=>{
 
 app.config(function($routeProvider){
     $routeProvider.when('/page1',{
-        templateUrl:'https://reneeshdenny.github.io/Experiment_1/'
+        templateUrl:'https://jasonj2232.github.io/20CS2056/Experiment01.html'
     })
     .when('/page2',{
         templateUrl:'https://reneeshdenny.github.io/Experiment_1/'
